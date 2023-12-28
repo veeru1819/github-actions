@@ -9,3 +9,5 @@ jobs:
       - uses: actions/checkout@v4
       - name: Run a one-line script
         run: echo Hello from Octo Organizati
+      - name: Run multiple lines
+        run: mkdir veeru | cd veeru
